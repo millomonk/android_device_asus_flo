@@ -35,11 +35,4 @@ PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.flo.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
-# overrides
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=748593 \
-    PRODUCT_NAME=razor \
-    TARGET_BUILD_TYPE=user \
-    BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="razor-user 4.3 JSS15J 748593 release-keys" \
-    BUILD_FINGERPRINT="google/razor/flo:4.3/JSS15J/748593:user/release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:4.4.2/KOT49H/937116:user/release-keys PRIVATE_BUILD_DESC="razor-user 4.4.2 KOT49H 937116 release-keys"
