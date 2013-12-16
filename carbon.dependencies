@@ -1,0 +1,10 @@
+[
+ {
+   "repository": "CarbonDev/android_kernel_google_msm",
+   "target_path": "kernel/google/msm"
+ },
+ {
+   "repository": "CarbonDev/proprietary_vendor_asus",
+   "target_path": "vendor/asus"
+ }
+]
