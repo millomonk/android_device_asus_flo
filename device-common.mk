@@ -282,7 +282,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         device/asus/flo/qcom_dalvic/dalvikvm:system/bin/dalvikvm \
         device/asus/flo/qcom_dalvic/dexopt:system/bin/dexopt \
-        device/asus/flo/qcom_dalvic/installd:system/bin/installd
+        device/asus/flo/qcom_dalvic/installd:system/bin/installd \
+        device/asus/flo/qcom_dalvic/libcutils.so:system/lib/libcutils.so \
+        device/asus/flo/qcom_dalvic/libdvm.so:system/lib/libdvm.so \
+        device/asus/flo/qcom_dalvic/libqc-opt.so:system/lib/libqc-opt.so 
 
 PRODUCT_LOCALES := en_US es_US de_DE zh_CN
 
