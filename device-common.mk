@@ -278,12 +278,6 @@ PRODUCT_COPY_FILES += \
     device/asus/flo/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/asus/flo/nfc/libnfc-brcm-20791b05.conf:system/etc/libnfc-brcm-20791b05.conf
 
-# Qualcomm optimized dalvic blobs
-PRODUCT_COPY_FILES += \
-        device/asus/flo/qcom_dalvic/dalvikvm:system/bin/dalvikvm \
-        device/asus/flo/qcom_dalvic/dexopt:system/bin/dexopt \
-        device/asus/flo/qcom_dalvic/installd:system/bin/installd
-
 PRODUCT_LOCALES := en_US es_US de_DE zh_CN
 
 $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-heap.mk)
